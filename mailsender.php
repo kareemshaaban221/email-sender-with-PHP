@@ -12,9 +12,9 @@ validate($_POST);
   
 try {
     $credentials = [
-        'clientId' => '776208204280-iq3j1810n6c63mujkub30r0ce8ir9o07.apps.googleusercontent.com',
-        'clientSecret' => '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',
-        'refreshToken' => '1//03VoLhHZHk_DYCgYIARAAGAMSNwF-L9IrDgo3t8pAIFkXQ4JiZeXt6sT5L0J2voDYs0GwwrKgoNsPEw4WKwuIbM0JPxRxeQpJMxk'
+        'clientId' => 'secret',
+        'clientSecret' => 'secret',
+        'refreshToken' => 'secret'
     ];
 
     $preparer = new App\Email\EmailPreparer($credentials);
